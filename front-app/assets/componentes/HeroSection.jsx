@@ -34,7 +34,7 @@ function HeroSection({ onVerGaleriaPress }) {
 
   // 🚀 WhatsApp con número real y mensaje automático
   const handleWhatsApp = () => {
-    const phoneNumber = "573053817091"; // 👈 Cambia este número por el del cliente
+    const phoneNumber = "573112516451"; // 👈 Cambia este número por el del cliente
     const textMessage = encodeURIComponent("¡Hola! Me gustaría solicitar información y consultar disponibilidad para una reserva.");
     Linking.openURL(`https://wa.me/${phoneNumber}?text=${textMessage}`);
   };
@@ -50,7 +50,7 @@ function HeroSection({ onVerGaleriaPress }) {
         <View style={styles.innerContainer}>
           
           <View style={styles.header}>
-            <Text style={styles.brandTitle}>Casa Ricaurte</Text>
+            <Text style={styles.brandTitle}>Quinta Solari</Text>
             <Text style={styles.brandSubtitle}>Descanso en la naturaleza</Text>
           </View>
 

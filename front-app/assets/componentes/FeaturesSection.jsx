@@ -6,19 +6,19 @@ const FEATURES = [
   {
     id: '1',
     icon: require('../../assets/images/piscina-IMG.png'),
-    title: 'Piscina privada',
+    title: 'Piscina y Jacuzzy privado',
     subtitle: 'Para disfrutar en familia',
   },
   {
     id: '2',
     icon: require('../../assets/images/bbq-IMG.png'),
-    title: 'Zona BBQ',
+    title: 'Zona BBQ a Gas',
     subtitle: 'Reúnate y comparte',
   },
   {
     id: '3',
     icon: require('../../assets/images/personas-IMG.png'),
-    title: '8 personas',
+    title: '14 personas',
     subtitle: 'Capacidad máxima',
   },
   {
@@ -30,8 +30,8 @@ const FEATURES = [
   {
     id: '5',
     icon: require('../../assets/images/parqueadero-IMG.png'),
-    title: 'Parqueadero',
-    subtitle: 'Seguro y privado',
+    title: 'Parqueadero Cubierto',
+    subtitle: 'Seguro y privado 4 Vehiculos',
   },
 ];
 

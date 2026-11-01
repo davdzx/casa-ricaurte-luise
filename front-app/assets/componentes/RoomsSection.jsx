@@ -15,9 +15,9 @@ const ROOMS_DATA = [
     id: '1',
     title: 'Habitación 1',
     features: [
-      { icon: '🛏', text: 'Cama doble' },
+      { icon: '🛏', text: ' 2 Camas Dobles - 1 Cama Sencilla' },
       { icon: '🚿', text: 'Baño privado' },
-      { icon: '🌀', text: 'Ventilador' },
+      { icon: '🌀', text: 'Ventilador y Closet' },
     ],
     image: require('../images/Room-IMG1.jpg'), // REEMPLAZA CON TU FOTO
   },
@@ -25,8 +25,9 @@ const ROOMS_DATA = [
     id: '2',
     title: 'Habitación 2',
     features: [
-      { icon: '🛏', text: 'Cama doble' },
-      { icon: '🌀', text: 'Ventilador' },
+      { icon: '🛏', text: '1 Camarote y 4 Camas Sencillas' },
+        { icon: '🚿', text: 'Baño privado y Closet ' },
+      { icon: '🌀', text: '2 Ventiladores' },
     ],
     image: require('../images/Room-IMG2.jpg'), // REEMPLAZA CON TU FOTO
   },
@@ -34,8 +35,8 @@ const ROOMS_DATA = [
     id: '3',
     title: 'Habitación 3',
     features: [
-      { icon: '🛏', text: 'Cama doble' },
-      { icon: '🌀', text: 'Ventilador' },
+      { icon: '🛏', text: '1 Camarote y 2 Camas Sencillas' },
+      { icon: '🌀', text: '2 Ventiladores y Closet ' },
     ],
     image: require('../images/Room-IMG3.jpg'), // REEMPLAZA CON TU FOTO
   },
@@ -56,8 +57,8 @@ export default function RoomsSection() {
           <Text style={RoomsStyles.subtitle}>Comodidad para todos</Text>
           
           <Text style={RoomsStyles.description}>
-            Contamos con 3 habitaciones, todas con cama doble y ventilación natural. 
-            Además, la casa dispone de 2 baños y una amplia sala-comedor.
+            Contamos con 3 acogedoras habitaciones con capacidad para 14 personas, todas cuentan con ventiladores y closet , la principal con baño privado.
+            Además, la casa dispone de 4 baños y una amplia sala-comedor y sala de juegos.
           </Text>
 
           <TouchableOpacity style={RoomsStyles.buttonOutline} activeOpacity={0.7}>

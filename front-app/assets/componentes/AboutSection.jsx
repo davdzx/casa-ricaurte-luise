@@ -10,11 +10,11 @@ import {
 import AboutStyles from '../Styles/AboutStyle';
 
 const HIGHLIGHTS = [
-  'Piscina privada',
+  'Piscina y Jacuzzy privado',
   'Zona de BBQ y comedor exterior',
   'Amplias zonas verdes',
   'Parqueadero privado',
-  'WiFi',
+  'Tenis de Mesa, Bolirana, Arcade',
 ];
 
 const IMAGES = {
@@ -34,7 +34,7 @@ export default function AboutSection() {
         
         {/* BLOQUE 1: DESCRIPCIÓN */}
         <View style={[AboutStyles.textColumn, isDesktop && AboutStyles.textColumnDesktop]}>
-          <Text style={AboutStyles.subtitle}>LA CASA</Text>
+          <Text style={AboutStyles.subtitle}>Quinta Solari</Text>
           <Text style={AboutStyles.title}>Espacios diseñados{"\n"}para tu descanso</Text>
           
           <Text style={AboutStyles.description}>
